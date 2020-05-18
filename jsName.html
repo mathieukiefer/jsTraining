@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My 1st JS Script</title>
+  </head>
+  <body>
+
+<script type="text/javascript">
+  var name = prompt("Type your name");
+  var lastName = prompt("Type your last name");
+  var lastNameLength = lastName.length;
+  alert("your last name Lenght is "+ lastNameLength + " characters");
+  alert("Your name is " + name.length + " characters");
+
+  alert("Hello " + name.slice(0,1).toUpperCase() + name.slice(1,name.lenght).toLowerCase() + " " + lastName.slice(0,1).toUpperCase() + lastName.slice(1,lastName.lenght).toLowerCase());
+  alert("Your init are: " + name.slice(0,1).toUpperCase() + lastName.slice(0,1).toUpperCase() + lastName.slice((lastNameLength-1),lastNameLength).toUpperCase());
+</script>
+
+  </body>
+</html>
